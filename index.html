@@ -27,9 +27,10 @@
             <label for="password" class="col-10 d-flex flex-row justify-content-between mt-3 position-relative">
                 <span class="text-capitalize text-light pt-2">password:</span>
                 <!-- enter password -->
-                <input type="password" name="password" id="username" class="col-8 ">
-                <i class="bi bi-eye-fill text-info position-absolute d-block"></i>
-                <i class="bi bi-eye-slash-fill text-info position-absolute d-none"></i>
+                <input type="password" name="password" id="password" class="col-8 ">
+                <!-- icons for showing and hiding password -->
+                <i class="bi bi-eye-fill text-info position-absolute d-block" id="showPass"></i>
+                <i class="bi bi-eye-slash-fill text-info position-absolute d-none" id="hidePass"></i>
             </label>
             <div id="assign" class="d-flex flex-row flex-wrap justify-content-end align-content-center mt-3 p-0" >
                 <p class="mx-2 pt-2"><a href="#" class="text-info">forget password</a></p>
