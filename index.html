@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Page</title>
+    <!-- add css file -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- add bootstrap css file -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- add boos=tstrap icon file -->
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+</head>
+<body class="bg-dark">
+    <!-- start project -->
+    <div class="mx-auto my-2 p-3 col-5  rounded card">
+        <!-- login form -->
+        <form action="" class="d-flex flex-column flex-wrap justify-content-center align-content-center">
+            <!-- username part -->
+            <label for="username" class="col-10 d-flex flex-row justify-content-between">
+                
+                <span class="text-capitalize text-light pt-2">username:</span>
+                <!-- enter username -->
+                <input type="text" name="username" id="username" class="col-8">
+            </label>
+            <!-- password part -->
+            <label for="password" class="col-10 d-flex flex-row justify-content-between mt-3 position-relative">
+                <span class="text-capitalize text-light pt-2">password:</span>
+                <!-- enter password -->
+                <input type="password" name="password" id="username" class="col-8 ">
+                <i class="bi bi-eye-fill text-info position-absolute d-block"></i>
+                <i class="bi bi-eye-slash-fill text-info position-absolute d-none"></i>
+            </label>
+            <div id="assign" class="d-flex flex-row flex-wrap justify-content-end align-content-center mt-3 p-0" >
+                <p class="mx-2 pt-2"><a href="#" class="text-info">forget password</a></p>
+                <button type="submit" class="btn btn-sm btn-secondary h-25  col-3 ">login</button>
+
+            </div>
+
+        </form>
+    </div>
+</body>
+<!-- add js file -->
+<script src="js/main.js"></script>
+<!-- add bootstrap js file -->
+<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</html>
